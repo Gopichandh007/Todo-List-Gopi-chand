@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(90, 90, 250);
+    padding: 20px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.todo-container{
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    max-width: 500px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    padding: 0;
+}
+input{
+    padding: 10px;
+    margin: 10px 5px 10px 0;
+}
+li{
+    padding-inline: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.delete-button{
+    background-color: rgb(238, 5, 5);
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+
+}
+.add-button{
+    background-color:green;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
